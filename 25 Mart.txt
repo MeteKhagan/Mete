@@ -1,0 +1,11 @@
+Gün 1 (25/03/2026)
+
+
+Matematik,
+İHA,
+Robotik,
+dersleri var idi.
+
+Ders tekrarları yapıldı ve robotik dersinin ilk "commit" ve "add" komutları işlendi.
+
+

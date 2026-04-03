@@ -1,0 +1,13 @@
+def deduct(x,y):
+    
+    if x>=y:
+        return(x-y)
+    else:
+        return(y-x)
+
+def main():
+    print("Deduct Operator")
+    print(deduct(1,5))
+
+if __name__ == '__main__':
+    main()

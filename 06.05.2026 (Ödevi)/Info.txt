@@ -1,0 +1,47 @@
+
+urun_adi = "Laptop"       # string
+fiyat = 15000.50         # float
+stok_adeti = 10          # int
+indirim_var_mi = True    # bool
+
+print(f"Ürün: {urun_adi}, Fiyat: {fiyat}, Stok: {stok_adeti}")
+
+
+2. Temel Veri Tipleri
+Python'da verileri saklamak ve işlemek için farklı "tipler" kullanırız. Ödevde istenen dört temel veri tipinin detayları şunlardır:
+
+A. Integer (int) - Tam Sayılar
+Ondalık kısmı olmayan, pozitif, negatif veya sıfır olan tam sayılardır.
+
+Kullanım Alanı: Matematiksel hesaplamalar, döngü sayaçları, sıralama işlemleri.
+
+Örnekler: 5, -14, 1000, 0
+
+Python Kodu: yas = 25
+
+B. Float - Ondalıklı Sayılar
+İçinde ondalık kısım (nokta ile ayrılmış) barındıran sayılardır.
+
+Kullanım Alanı: Hassas ölçümler, ağırlık, para birimleri, bölme işlemleri sonucu.
+
+Örnekler: 3.14, -0.5, 10.0
+
+Python Kodu: sicaklik = 22.5
+
+C. String (str) - Metinler
+Karakterlerden (harfler, sayılar, semboller) oluşan metin dizileridir. Python'da tek tırnak ('...') veya çift tırnak ("...") arasına yazılarak tanımlanırlar.
+
+Kullanım Alanı: İsimler, mesajlar, adresler, kullanıcıdan alınan veri girişleri.
+
+Örnekler: "Merhaba", 'Python 101', "12345" (Tırnak içinde olduğu için sayı değil metindir).
+
+Python Kodu: isim = "Ahmet"
+
+D. Boolean (bool) - Mantıksal Değerler
+Sadece iki durumdan birini ifade eden veri tipidir: True (Doğru) veya False (Yanlış). Bilgisayar dilinde 1 (True) ve 0 (False) mantığını temsil eder.
+
+Kullanım Alanı: Karar yapıları (if-else), döngü şartları, durum kontrolleri.
+
+Örnekler: True, False
+
+Python Kodu: sinavi_gecti_mi = True

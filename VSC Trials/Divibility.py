@@ -1,0 +1,15 @@
+# This function gives us the divider or diviser.
+
+
+def divb(x,y):
+    return(x//y)
+
+k = float(input("Insert number one: "))
+l = float(input("Insert number two: "))
+
+def main():
+    print("Divibility Operator")
+    print(divb(k,l))
+
+if __name__ == '__main__':
+    main()
